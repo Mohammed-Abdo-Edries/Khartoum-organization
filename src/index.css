@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar {
-    font-family: 'Gulzar', serif;
+h1,
+h2 {
+    font-family: 'Tajawal', serif;
 }
