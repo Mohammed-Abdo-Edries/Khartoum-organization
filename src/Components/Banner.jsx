@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div id='Banner' className='pt-12'>
             <div dir='rtl' className='py-4 px-4 sm:px-20'>
-                <h2 className=''>
+                <h2 className='text-green-700'>
                     - من نحن ؟
                 </h2>
                 <h2>
@@ -19,20 +19,20 @@ const Banner = () => {
             </div>
             <div dir='rtl' className='bg-blue-950 text-white px-4 sm:px-20 rounded-md py-4'>
                 <div>
-                    <h2>الرسالة :</h2>
+                    <h2 className='text-green-700'>الرسالة :</h2>
                     <div>الإنسان هو الثروة الحقيقة, وبقليل من الإدارة وكثير من الجماعية في الأداء يمكن تحقيق الاستفادة القصوي من خبراته العلمية والعملية, وتسخيرها لتحقيق التنمية وحل أعظم المشكلات.</div>
                 </div>
                 <div>
-                    <h2>الرؤية :</h2>
+                    <h2 className='text-green-700'>الرؤية :</h2>
                     <h3>تحقيق الأهداف باعتماد آليات :</h3>
                     <ul>
-                        <li>الشراكة الذكية.</li>
-                        <li>التدريب والبرامج.</li>
-                        <li>المشرةعات والاستثمار.</li>
+                        <li>- الشراكة الذكية.</li>
+                        <li>- التدريب والبرامج.</li>
+                        <li>- المشرةعات والاستثمار.</li>
                     </ul>
                 </div>
                 <div>
-                    <h2>الأهداف :</h2>
+                    <h2 className='text-green-700'>الأهداف :</h2>
                     <ul>
                         <li>
                             - تطوير المجتمع بالاستفادة القصوي من الكوادر المؤهلة.
