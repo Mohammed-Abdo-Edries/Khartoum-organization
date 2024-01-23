@@ -23,7 +23,7 @@ const Navbar = () => {
                 </ul>
             </Popup>
             <div className='relative logo mr-4 w-40'>
-                <h1 className='absolute top-0 text-xl font-bold text-blue-950'>منظــــمــة الخـــرطـــوم</h1>
+                <h1 className='absolute top-0 text-xl font-bold text-blue-950'>منظــمــة الخــرطـــوم</h1>
                 <h2 className='absolute top-5 text-base text-green-700'> للرعاية الإنسانية والتنمية</h2>
             </div>
         </div>
