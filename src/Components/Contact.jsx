@@ -14,27 +14,26 @@ const Contact = () => {
                 <h3>أيام وساعات العمل :</h3>
                 <div>من السبت إلي الخميس من الساعة 9:00AM إلي 2:00PM</div>
                 <h3>حساباتنا :</h3>
-                <div className='flex text-xl justify-center text-blue-400'>
+                <div className='flex text-xl justify-center text-blue-950 py-4'>
                     <div className='px-2'>
-                        <a herf="https://www.facebook.com/profile.php?id=61555803090077&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" >
-                            <FaFacebookSquare />
-                        </a>
+                        <a href='https://www.facebook.com/profile.php?id=61555803090077&mibextid=LQQJ4d' target='_blank' rel='noopener noreferrer'><FaFacebookSquare /></a>
                     </div>
                     <div className='px-2'>
-                        <a herf="https://whatsapp.com/channel/0029VaGlx0jFHWq0le52TM3t" target="_blank" rel="noopener noreferrer" >
-                            <FaWhatsapp />
-                        </a>
+                        <a href='https://whatsapp.com/channel/0029VaGlx0jFHWq0le52TM3t' target='_blank' rel='noopener noreferrer'><FaWhatsapp /></a>
                     </div>
                     <div className='px-2'>
+                        {/* <a href='https://whatsapp.com/channel/0029VaGlx0jFHWq0le52TM3t' target='_blank' rel='noopener noreferrer'><FaWhatsapp /></a> */}
                         <FaInstagram />
                     </div>
                     <div className='px-2'>
+                        {/* <a href='https://whatsapp.com/channel/0029VaGlx0jFHWq0le52TM3t' target='_blank' rel='noopener noreferrer'><FaWhatsapp /></a> */}
                         <BsTwitterX />
                     </div>
+
                     {/* <a herf="" target="_blank" rel="noopener noreferrer" ></a> */}
                     {/* <a herf="" target="_blank" rel="noopener noreferrer" ></a> */}
                 </div>
-                <div className="block text-center">&copy; {new Date().getFullYear()} All rights are Reserved</div>
+                <div className="block text-center pb-4">&copy; {new Date().getFullYear()} All rights are Reserved</div>
             </div>
         </div>
     )

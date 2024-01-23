@@ -7,7 +7,7 @@ const Navbar = () => {
         // <BrowserRouter>
         // <Router>
         <div className='navbar max-w-full sticky top-0 backdrop-blur-2xl flex justify-between
-         bg-white/30 z-10 backdrop-brightness-90 px-4 pt-4 h-20 border-b-4 border-blue-950'>
+         bg-white z-10 px-4 pt-4 h-20 border-b-4 border-blue-950'>
             <Popup trigger={<button><GiHamburgerMenu className='pb-4 text-4xl text-blue-950' /></button>}
                 position="bottom left" closeOnDocumentClick >
                 <ul dir="rtl" className='bg-blue-950 rounded-lg py-2 text-center text-white'>
