@@ -4,11 +4,8 @@ const Banner = () => {
     return (
         <div id='Banner' className='pt-12'>
             <div dir='rtl' className='py-4 px-4 sm:px-20'>
-                <h2 className='text-green-700'>
-                    - من نحن ؟
-                </h2>
-                <h2>
-                    نبذة تعريفية عن المنظمة :
+                <h2 className='text-green-700 text-xl'>
+                    - من نحـــــــن ؟
                 </h2>
                 بدأت الفكرة بمجموعة إلكترونية في 2023/4/15 بهدف خلق
                 فرص عمل للنازحين من ولاية الخرطوم لولاية كسلا بفعل حرب 2023/4/15 وتحقيق الإستفادة من خبراتهم من خلال تكوين منظمة من النازحين أنفسهم,
@@ -19,11 +16,11 @@ const Banner = () => {
             </div>
             <div dir='rtl' className='bg-blue-950 text-white px-4 sm:px-20 rounded-md py-4'>
                 <div>
-                    <h2 className='text-green-700'>الرسالة :</h2>
+                    <h2 className='text-green-700 text-xl'>الرسالة :</h2>
                     <div>الإنسان هو الثروة الحقيقة, وبقليل من الإدارة وكثير من الجماعية في الأداء يمكن تحقيق الاستفادة القصوي من خبراته العلمية والعملية, وتسخيرها لتحقيق التنمية وحل أعظم المشكلات.</div>
                 </div>
                 <div>
-                    <h2 className='text-green-700'>الرؤية :</h2>
+                    <h2 className='text-green-700 text-xl'>الرؤية :</h2>
                     <h3>تحقيق الأهداف باعتماد آليات :</h3>
                     <ul>
                         <li>- الشراكة الذكية.</li>
@@ -32,7 +29,7 @@ const Banner = () => {
                     </ul>
                 </div>
                 <div>
-                    <h2 className='text-green-700'>الأهداف :</h2>
+                    <h2 className='text-green-700 text-xl'>الأهداف :</h2>
                     <ul>
                         <li>
                             - تطوير المجتمع بالاستفادة القصوي من الكوادر المؤهلة.
